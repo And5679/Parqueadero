@@ -228,7 +228,7 @@ osea que esta detras de mis elementos principales.*/
 }
 
 .texto-encabezado h1 {
-  font-size: 3rem;
+  font-size: 10px;
   text-align: center;
   color: var(--blanco);
   padding-top: 8rem;
@@ -236,9 +236,9 @@ osea que esta detras de mis elementos principales.*/
 
 @media (min-width: 768px) {
   .texto-encabezado h1 {
-    font-size: 7rem;
-    text-align: left;
-    padding-top: 0;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2;
   }
 }
 
@@ -563,3 +563,15 @@ osea que esta detras de mis elementos principales.*/
 
 
 }}
+
+@media(min-width:768px){
+
+  .texto-encabezado{
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    
+    }
+
+}
